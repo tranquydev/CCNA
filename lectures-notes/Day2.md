@@ -59,14 +59,12 @@ Khi kết nối vào thiết bị Cisco, người quản trị sẽ tương tác
 ### 1. Lệnh di chuyển từ ngoài vào trong
 * Chuyển từ *User EXEC* vào *Privileged EXEC*:
 ```ios
-  Router> enable
-
+Router> enable
 ```
 
 * Chuyển từ *Privileged EXEC* vào *Global Configuration*:
 ```ios
 Router# configure terminal
-
 ```
 
 
@@ -76,14 +74,12 @@ Router# configure terminal
 * Lùi lại một chế độ liền trước nó:
 ```ios
 Router(config)# exit
-
 ```
 
 
 * Quay thẳng về chế độ đặc quyền *Privileged EXEC* (dấu `#`) dù đang ở bất kỳ chế độ con sâu đến mức nào:
 ```ios
 Router(config-if)# end
-
 ```
 
 
@@ -94,7 +90,6 @@ Router(config-if)# end
 * Đổi tên thiết bị (Bắt buộc phải đứng ở chế độ *Global Configuration Mode*):
 ```ios
 Router(config)# hostname <Tên_Muốn_Đổi>
-
 ```
 
 
@@ -104,7 +99,7 @@ Router(config)# hostname <Tên_Muốn_Đổi>
 ## V. Bài Tập Thực Hành Số 1 (Lab ban đầu)
 
 * **Công cụ:** Cisco Packet Tracer, sử dụng Router **2811**.
-* **Yêu cầu:** Khởi động thiết bị, gõ `no` để bỏ qua Setup Mode. Vào chế độ cấu hình đổi tên Router thành tên viết tắt của mình (Ví dụ: `TRANQUY`). Sau đó lùi thiết bị về lại chế độ *User EXEC Mode* (hiển thị dấu `>`) và chụp màn hình kết quả để nộp bài.
+* **Yêu cầu:** Khởi động thiết bị, gõ `no` để bỏ qua Setup Mode. Vào chế độ cấu hình đổi tên Router thành tên viết tắt của mình (Ví dụ: `TRANQUY`). Sau đó lùi thiết bị về lại chế độ *User EXEC Mode* (hiển thị dấu `>`).
 
 
 
