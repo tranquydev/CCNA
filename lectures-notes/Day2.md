@@ -1,5 +1,5 @@
 
-# Day 2: Cisco IOS Cơ Bản & Các Chế Độ Hoạt Động (Modes)
+# Day 2: OS Basic Config P1
 
 ## I. Thành phần của Hệ điều hành Cisco IOS
 Tương tự như mọi hệ điều hành khác, Cisco IOS được cấu thành từ 3 phần chính:
