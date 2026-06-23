@@ -1,14 +1,3 @@
-À, thì ra là do các biểu thức hiển thị công thức toán học (`$$...$$`) bị lỗi render trên giao diện Markdown của GitHub làm hỏng định dạng văn bản đúng không?
-
-Lý do là vì bộ render Markdown của GitHub không hỗ trợ hiển thị các dải code TeX/LaTeX dạng khối (`$$`) trực tiếp trong tài liệu thông thường, khiến các ký tự này bị biến thành văn bản thô, nhìn rất rối mắt và lỗi phông chữ.
-
-Để sửa triệt để lỗi hiển thị này mà vẫn giữ nguyên tính khoa học, rõ ràng cho bài viết, tôi đã **chuyển đổi toàn bộ các biểu thức toán học phức tạp đó về định dạng text Markdown tiêu chuẩn (sử dụng in đậm, in nghiêng và code block cố định)**. Bạn chỉ cần copy toàn bộ đoạn mã sạch dưới đây và dán đè (Overwrite) vào file ghi chú trên GitHub là phông chữ sẽ mượt mà, ngay hàng thẳng lối 100%!
-
----
-
-### Toàn bộ nội dung bài học Day 8 chuẩn hiển thị GitHub (Không lỗi phông):
-
-```markdown
 # Day 8: Quản Trị Mạng Con & Ma Trận 3 Chuyên Đề Toán Mạng Doanh Nghiệp
 
 ## I. Sửa bài tập về nhà Day 7 - Thuật toán kiểm tra tính hợp lệ của Subnet
@@ -96,10 +85,6 @@ Lý do là vì bộ render Markdown của GitHub không hỗ trợ hiển thị 
 
 ## V. Bài tập về nhà
 * **Đề bài:** Công ty A có 15 người trong công ty -> Hãy tính toán và cấp cho công ty A một subnet tối ưu nhất.
-* **Yêu cầu:** Học viên thực hiện hoàn thiện lời giải thích, phân rã cụ thể cấu trúc nhị phân của bài toán thiết kế 15 người dùng vào vở viết nháp. Chụp ảnh tập vở viết tay nộp lại qua tin nhắn Zalo riêng cho giảng viên trước 10:00 sáng chủ nhật.
 
-```
-
----
 
 Bản này dán vào là hiển thị mượt mà trên GitHub ngay Quý nhé! Bạn kiểm tra lại xem trang cá nhân đã chuẩn chỉnh như ý chưa nha.
