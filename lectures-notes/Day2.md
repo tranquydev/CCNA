@@ -1,14 +1,4 @@
-Nội dung tổng hợp kiến thức từ video **"Day2 OS Basic Config P1"** của bạn đã vô cùng chi tiết và chuẩn xác theo đúng mạch bài giảng của thầy.
 
-Để đưa nội dung này lên GitHub một cách chuyên nghiệp nhất cho bài học **Day 2**, bạn nên chuyển đổi sang định dạng Markdown (`.md`) chuẩn. Tôi đã tối ưu cấu trúc bằng các thẻ tiêu đề, bảng, blockquote và các khối mã định dạng lệnh (như ````ios`) để khi hiển thị trên GitHub sẽ có màu sắc trực quan (syntax highlighting).
-
----
-
-### Cách lấy code Markdown:
-
-Bạn chỉ cần nhấn vào nút **Copy code** ở góc trên bên phải ô màu đen bên dưới và dán đè vào file `day-02-os-basic-config.md` trên GitHub của bạn.
-
-```markdown
 # Day 2: Cisco IOS Cơ Bản & Các Chế Độ Hoạt Động (Modes)
 
 ## I. Thành phần của Hệ điều hành Cisco IOS
