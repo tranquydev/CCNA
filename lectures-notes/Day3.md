@@ -4,7 +4,7 @@
 
 Để cấu hình và quản trị một thiết bị mạng Cisco (Router, Switch, Firewall), kỹ sư sử dụng 2 phương thức tiếp cận giao diện Shell:
 * **Giao diện đồ họa (GUI):** Thân thiện, dễ học thông qua các thao tác click chuột (Ví dụ: Windows, Android, trang cấu hình Web của Modem Wifi tại nhà). Tuy nhiên, GUI bị giới hạn và không thể can thiệp sâu.
-* **Giao diện dòng lệnh (CLI):** Yêu cầu kỹ sư phải có kiến thức chuyên sâu để điều khiển thiết bị bằng cấu trúc lệnh, nhưng cực kỳ linh hoạt và tối ưu.
+* **Giao diện dòng lệnh (CLI):** Yêu cầu phải có kiến thức chuyên sâu để điều khiển thiết bị bằng cấu trúc lệnh, nhưng cực kỳ linh hoạt và tối ưu.
 
 > ⚠️ **Khi nào bắt buộc phải dùng cáp Console vật lý?**
 > Mọi thiết bị mạng, thiết bị bảo mật (Tường lửa) hay Server mới mua xuất xưởng, hoặc khi cần cài đặt lại hệ điều hành (Boot lại OS), bắt buộc phải sử dụng phương pháp cắm dây Console trực tiếp ở khoảng cách ngắn. Vì lúc này thiết bị hoàn toàn trống trơn, chưa được cấu hình địa chỉ IP hay các dịch vụ quản trị từ xa (Telnet/SSH) để kết nối qua mạng.
