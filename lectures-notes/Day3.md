@@ -25,9 +25,9 @@
 * **Thuật toán nhận diện phím tắt:** CLI chỉ cho phép bấm `Tab` hoặc chấp nhận lệnh viết tắt khi bạn đã gõ vào vừa đủ số lượng chữ cái để phân biệt **duy nhất** từ đó với các từ còn lại trong danh mục.
   * *Ví dụ:* Có 3 từ bắt đầu bằng `co` (`configure`, `connect`, `copy`). Nếu chỉ gõ `co` rồi bấm `Tab` hệ thống sẽ báo lỗi. Nhưng khi gõ tới `conf` (chữ `f` giúp phân biệt hoàn toàn), ấn `Tab` sẽ bung lệnh thành công.
 
-### 🚨 Quy tắc làm Lab bắt buộc (Rèn luyện phản xạ Quốc tế):
-Hệ điều hành Cisco IOS cho phép viết tắt câu lệnh (Ví dụ: thay vì gõ `configure terminal`, kỹ sư chỉ gõ `conf t` rồi ấn `Enter` thiết bị vẫn thực thi). 
-**Quy định nghiêm ngặt:** Kể từ bài học Day 3 trở đi, tất cả học viên khi làm bài Lab **KHÔNG ĐƯỢC PHÉP** viết câu lệnh đầy đủ mà bắt buộc phải gõ bằng lệnh viết tắt hoặc sử dụng phím `Tab`. Mục đích nhằm tối ưu hóa thời gian gõ phím, hạn chế rủi ro sai lỗi chính tả và rèn luyện phản xạ tốc độ cao phục vụ cho các bài thi quốc tế dài 8 tiếng liên tục (như CCIE).
+### 🚨 Quy tắc làm Lab bắt buộc 
+Hệ điều hành Cisco IOS cho phép viết tắt câu lệnh (Ví dụ: thay vì gõ `configure terminal`, gõ `conf t` rồi ấn `Enter` thiết bị vẫn thực thi). 
+**Quy định nghiêm ngặt:** bắt buộc phải gõ bằng lệnh viết tắt hoặc sử dụng phím `Tab`. Mục đích nhằm tối ưu hóa 
 
 * **Phím mũi tên trái/phải:** Điều khiển con trỏ di chuyển để sửa chữ cái trong dòng lệnh.
 * **Phím mũi tên lên (`↑`):** Gọi ngược lại các câu lệnh vừa gõ trước đó lưu trong bộ nhớ đệm (History buffer), giúp kỹ sư không phải gõ lại các cấu trúc lệnh dài phức tạp.
