@@ -1,12 +1,3 @@
-Nhìn vào bức ảnh `image_297d38.png` bạn gửi, kết quả test phân lớp bảo mật của bạn chuẩn không cần chỉnh! Hệ thống đã hiển thị đúng dòng Banner cảnh báo ngân hàng, đòi mật khẩu Console trước khi vào dấu `>` và đòi tiếp mật khẩu đặc quyền khi gõ `en` để vào dấu `#`.
-
-Bạn nên tạo một thư mục mới tên là **`lab-02-router-security`** (hoặc đặt tên theo ý bạn) nằm trong vùng `hands-on-labs` để lưu trữ bài thực hành nâng cao này. Dưới đây là nội dung mẫu chuẩn chỉnh để bạn điền thẳng vào file **`README.md`** của bài Lab 02:
-
----
-
-### Nội dung điền vào file `README.md` của Lab 02:
-
-```markdown
 # Lab 02: Cấu Hình Bảo Mật Mật Khẩu Đa Lớp & Biểu Ngữ Cảnh Báo (Banner MOTD)
 
 ## 1. Yêu cầu bài thực hành (Kịch bản Lab)
