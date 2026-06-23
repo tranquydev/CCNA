@@ -1,4 +1,4 @@
-# Day 1: Tổng Quan Về Hệ Thống Mạng & Tiêu Chuẩn Thiết Kế
+# Day 1: Giới Thiệu Network
 
 ## I. Thành phần trong hệ thống Mạng (Network Components)
 
