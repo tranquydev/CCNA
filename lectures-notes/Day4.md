@@ -105,18 +105,6 @@ Khi cấu hình bị thiếu hoặc thanh tiến độ bị kẹt không lên đ
 ### 3. Lưu ý các bẫy đề bài thường gặp
 
 * **Bẫy chữ hoa/chữ thường:** File chấm điểm tự động của Cisco cực kỳ nhạy cảm với ký tự hoa-thường. Nếu đề bài yêu cầu đặt mật khẩu là `cisco` (chữ c thường) nhưng học viên gõ thành `Cisco` (chữ C hoa), hệ thống sẽ chấm `Incorrect` và trừ điểm ngay lập tức.
-* **Banner MOTD nhiều dòng:** Khi nhập biểu ngữ dài hoặc xuống dòng, bắt buộc phải sử dụng ký tự đóng mở đồng bộ:
-
-```ios
-  Router(config)# banner motd #
-  Enter TEXT message. End with the character '#'.
-  [Gõ nội dung dòng 1 theo đúng ký tự đề bài]
-  [Gõ nội dung dòng 2 theo đúng ký tự đề bài]
-  #
-
-```
-
----
 
 ## V. Bài Tập Thực Hành Bắt Buộc (Day 4 Lớp)
 
