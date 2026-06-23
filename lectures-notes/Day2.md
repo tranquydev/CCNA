@@ -58,7 +58,7 @@ Khi kết nối vào thiết bị Cisco, người quản trị sẽ tương tác
 
 ### 1. Lệnh di chuyển từ ngoài vào trong
 * Chuyển từ *User EXEC* vào *Privileged EXEC*:
-  ```ios
+```ios
   Router> enable
 
 ```
@@ -106,16 +106,6 @@ Router(config)# hostname <Tên_Muốn_Đổi>
 * **Công cụ:** Cisco Packet Tracer, sử dụng Router **2811**.
 * **Yêu cầu:** Khởi động thiết bị, gõ `no` để bỏ qua Setup Mode. Vào chế độ cấu hình đổi tên Router thành tên viết tắt của mình (Ví dụ: `TRANQUY`). Sau đó lùi thiết bị về lại chế độ *User EXEC Mode* (hiển thị dấu `>`) và chụp màn hình kết quả để nộp bài.
 
-*Video bài học đầy đủ tại:* [Day2 OS Basic Config P1 - YouTube](https://youtu.be/btlL899fPgQ)
 
-```
-
----
-
-
-Sau khi tạo file này trên GitHub, trang ghi chú của bạn trông sẽ vô cùng chuyên nghiệp và "sạch sẽ". Bạn cứ tiếp tục duy trì form tài liệu hóa bài học chuẩn chỉ như thế này nhé!
-
-
-http://googleusercontent.com/youtube_content/0
 
 ```
