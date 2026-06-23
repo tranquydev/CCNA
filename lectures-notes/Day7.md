@@ -79,8 +79,6 @@ $$\mathbf{\text{Công thức tính lượng IP cấp cho máy trạm: }} \mathbf
 * **B.** `192.168.1.16/29`
 * **C.** `10.10.5.192/26`
 
-```
-
 ---
 
 ### 💡 Lợi ý nhỏ hỗ trợ giải bài tập tư duy :
