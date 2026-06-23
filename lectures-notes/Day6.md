@@ -97,8 +97,8 @@ Toàn bộ quá trình làm toán mạng tuyệt đối không được đụng 
 
 ---
 
-## VI. Kết quả rèn luyện tại lớp & Bài tập về nhà
+## VI. Kết quả & Bài tập về nhà
 * **Đã hoàn thành hoán đổi nhị phân tại lớp (Correct 100%):**
   * Thập phân $\rightarrow$ Nhị phân: $125 \rightarrow \mathbf{1111101} \mid 200 \rightarrow \mathbf{11001000} \mid 160 \rightarrow \mathbf{10100000}$
   * Nhị phân $\rightarrow$ Thập phân: $1111001 \rightarrow \mathbf{121} \mid 1010110 \rightarrow \mathbf{86} \mid 10001110 \rightarrow \mathbf{142}$
-* **Nhiệm vụ về nhà:** Học thuộc lòng bảng hằng số lũy thừa cơ số 2 từ $2^0$ đến $2^8$. Chuẩn bị sẵn thước kẻ và tập vở mới để chính thức vẽ đồ thị chia dải IP nâng cao ở buổi học tiếp theo.
+* **Nhiệm vụ :** Học thuộc lòng bảng hằng số lũy thừa cơ số 2 từ $2^0$ đến $2^8$. 
