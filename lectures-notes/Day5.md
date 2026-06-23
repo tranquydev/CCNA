@@ -20,7 +20,7 @@ Vào thuở sơ khai của ngành mạng, do không có một bộ tiêu chuẩn
 
 Tổ chức quốc tế đã ban hành mô hình **OSI (Open Systems Interconnection)** làm bộ luật tiêu chuẩn chung toàn cầu buộc mọi hãng phần cứng phải tuân theo. Nhờ đó, cạc mạng của Asus, màn hình LG, chip Intel đều có thể lắp ráp và giao tiếp hoàn hảo trên cùng một thùng máy PC.
 
-### 2. Ý nghĩa phân rã lớp (Chuyên môn hóa)
+### 2. Ý nghĩa phân rã lớp 
 OSI chia nhỏ hệ thống thành 7 tầng riêng biệt từ cao xuống thấp để thực hiện "chuyên môn hóa" công việc, giúp các hãng công nghệ đào sâu nghiên cứu tối ưu hóa thiết bị:
 * *Cisco / Juniper:* Tập trung làm chip định tuyến, xử lý tối ưu cho Layer 2, Layer 3, Layer 4.
 * *Microsoft / Apple:* Tập trung viết ứng dụng hệ điều hành cho Layer 7.
