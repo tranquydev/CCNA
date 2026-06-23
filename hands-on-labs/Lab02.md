@@ -42,11 +42,6 @@ TRANQUY# exit
 ---
 
 ## 3. Kết quả minh chứng quy trình bảo mật 3 lớp (Screenshot)
+<img width="825" height="191" alt="image" src="https://github.com/user-attachments/assets/27ef0b98-01ff-4fee-8482-e9fadd450a77" />
 
-Hình ảnh giao diện CLI thực tế sau khi gõ thoát hệ thống và đăng nhập lại, minh chứng cấu hình chạy chính xác 100%:
 
-* **Lớp 1 (Banner MOTD):** Đập thẳng thông điệp cảnh báo pháp lý của Ngân hàng ra màn hình CLI.
-* **Lớp 2 (Console Password):** Xuất hiện dòng chữ `User Access Verification` và chặn không cho lọt vào User Mode cho đến khi nhập đúng mật khẩu cổng Console.
-* **Lớp 3 (Privileged Password):** Khi gõ lệnh viết tắt `en`, hệ thống tiếp tục khóa và đòi mật khẩu đặc quyền lớp thứ hai mới cho phép tiến vào chế độ quản trị dấu `#`.
-
-```
