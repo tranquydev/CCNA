@@ -30,7 +30,7 @@ Hệ điều hành Cisco IOS cho phép viết tắt câu lệnh (Ví dụ: thay 
 **Quy định nghiêm ngặt:** bắt buộc phải gõ bằng lệnh viết tắt hoặc sử dụng phím `Tab`. Mục đích nhằm tối ưu hóa 
 
 * **Phím mũi tên trái/phải:** Điều khiển con trỏ di chuyển để sửa chữ cái trong dòng lệnh.
-* **Phím mũi tên lên (`↑`):** Gọi ngược lại các câu lệnh vừa gõ trước đó lưu trong bộ nhớ đệm (History buffer), giúp kỹ sư không phải gõ lại các cấu trúc lệnh dài phức tạp.
+* **Phím mũi tên lên (`↑`):** Gọi ngược lại các câu lệnh vừa gõ trước đó lưu trong bộ nhớ đệm (History buffer), giúp không phải gõ lại các cấu trúc lệnh dài phức tạp.
 
 ---
 
@@ -112,18 +112,3 @@ Router(config)# banner motd # CANH BAO: Day la thiet bi cua Ngan Hang. Moi hanh 
 *(Trạng thái bài tập: Đã cấu hình và nộp bài trên nhóm đạt chuẩn Correct 100%).*
 
 ---
-
-*Video bài học đầy đủ tại:* [Day3 OS and Basic config P2 - YouTube](https://youtu.be/btlL899fPgQ)
-
-```
-
----
-
-
-
-### 💡 Gợi ý cho bạn:
-Để hoàn tất bài thực hành **Lab 02** tương ứng với buổi học này (bài lab đặt password và cấu hình banner), bạn cũng tạo một thư mục mang tên `Lab02-router-security` bên trong thư mục `hands-on-labs/`. Sau đó áp dụng cách viết báo cáo kèm ảnh chụp màn hình CLI lúc thiết bị đòi mật khẩu như bạn đã làm rất tốt ở Lab 01 nhé! 
-
-Bạn có cần tôi hỗ trợ thiết kế luôn file mẫu `README.md` cho phần bài thực hành bảo mật mật khẩu này không?
-
-```
