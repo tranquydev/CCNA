@@ -37,16 +37,16 @@ Hệ điều hành Cisco IOS cho phép viết tắt câu lệnh (Ví dụ: thay 
 ## III. Các lệnh thiết lập Bảo mật và Mã hóa mật khẩu toàn diện
 
 ### 1. Đặt mật khẩu cửa ngõ đặc quyền (Privileged Mode)
-Để ngăn chặn người lạ cắm cáp xem trộm file cấu hình hệ thống, kỹ sư cần đặt password chặn ngay tại cửa ngõ chuyển từ *User Mode* lên *Privileged Mode*. Có 2 câu lệnh thực thi:
+Để ngăn chặn người lạ cắm cáp xem trộm file cấu hình hệ thống, cần đặt password chặn ngay tại cửa ngõ chuyển từ *User Mode* lên *Privileged Mode*. Có 2 câu lệnh thực thi:
 
 * **Lệnh văn bản thuần:** `enable password <mật_khẩu>` (Ví dụ: `enable password ccna`).
   * ❌ *Nhược điểm:* Khi gõ lệnh xem cấu hình `show running-config` (`sh run`), mật khẩu sẽ hiển thị rõ ràng dưới dạng chữ thô (Plain Text). Bất kỳ ai đứng cạnh nhìn vào màn hình đều đọc được.
 * **Lệnh mã hóa:** `enable secret <mật_khẩu>` (Ví dụ: `enable secret 123`).
   * *Ưu điểm:* Hệ điều hành tự động chạy thuật toán mã hóa mật khẩu này thành một chuỗi ký tự đặc biệt vô nghĩa. Khi `sh run`, mật khẩu gốc được giữ an toàn tuyệt đối.
 
-> 🎯 **Quy luật ưu tiên của Cisco:** > Trong trường hợp kỹ sư đặt cả 2 câu lệnh mật khẩu trên cùng một thiết bị, Cisco IOS sẽ nâng cao tính bảo mật bằng cách **vô hiệu hóa** câu lệnh `enable password` và chỉ chấp nhận duy nhất mật khẩu của câu lệnh mã hóa `enable secret` làm chìa khóa mở cổng.
+> 🎯 **Quy luật ưu tiên của Cisco:** > Trong trường hợp đặt cả 2 câu lệnh mật khẩu trên cùng một thiết bị, Cisco IOS sẽ nâng cao tính bảo mật bằng cách **vô hiệu hóa** câu lệnh `enable password` và chỉ chấp nhận duy nhất mật khẩu của câu lệnh mã hóa `enable secret` làm chìa khóa mở cổng.
 
-*Lưu ý khi nhập mật khẩu trên CLI:* Con trỏ chuột sẽ đứng im hoàn toàn, không hiển thị dấu chấm tròn hay dấu sao để chống lộ độ dài mật khẩu. Kỹ sư chỉ cần gõ chuẩn ký tự và ấn Enter.
+*Lưu ý khi nhập mật khẩu trên CLI:* Con trỏ chuột sẽ đứng im hoàn toàn, không hiển thị dấu chấm tròn hay dấu sao để chống lộ độ dài mật khẩu, chỉ cần gõ chuẩn ký tự và ấn Enter.
 
 ### 2. Đặt mật khẩu cổng cắm dây vật lý (Console Password)
 Gia cố thêm lớp bảo mật khóa ngay từ màn hình khởi động đầu tiên (chưa cho lọt vào User Mode) đối với bất kỳ ai mang dây cáp Console đến cắm trực tiếp vào thiết bị:
@@ -55,7 +55,6 @@ Gia cố thêm lớp bảo mật khóa ngay từ màn hình khởi động đầ
 Router(config)# line console 0
 Router(config-line)# password <mật_khẩu_muốn_đặt>
 Router(config-line)# login
-
 ```
 
 *(Lệnh `login` là bắt buộc để cưỡng bức thiết bị kiểm tra password mỗi khi có kết nối vào).*
@@ -66,7 +65,6 @@ Mặc định, mật khẩu của cổng Console hay mật khẩu của lệnh `
 
 ```ios
 Router(config)# service password-encryption
-
 ```
 
 ---
@@ -91,7 +89,6 @@ Dùng để hiển thị một bức thông điệp hoặc lời răn đe pháp 
 
 ```ios
 Router(config)# banner motd # CANH BAO: Day la thiet bi cua Ngan Hang. Moi hanh vi xam nhap trai phep se bi truy to phap luat! #
-
 ```
 
 *Mẹo viết banner xuống dòng:* Sau khi gõ `banner motd #` và ấn Enter, bạn gõ các dòng văn bản tự do, cuối cùng gõ dấu `#` ở dòng cuối cùng và ấn Enter để kết thúc.
