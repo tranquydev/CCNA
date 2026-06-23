@@ -7,16 +7,16 @@
 * **Giao diện dòng lệnh (CLI):** Yêu cầu kỹ sư phải có kiến thức chuyên sâu để điều khiển thiết bị bằng cấu trúc lệnh, nhưng cực kỳ linh hoạt và tối ưu.
 
 > ⚠️ **Khi nào bắt buộc phải dùng cáp Console vật lý?**
-> Mọi thiết bị mạng, thiết bị bảo mật (Tường lửa) hay Server mới mua xuất xưởng, hoặc khi cần cài đặt lại hệ điều hành (Boot lại OS), bắt buộc kỹ sư phải sử dụng phương pháp cắm dây Console trực tiếp ở khoảng cách ngắn. Vì lúc này thiết bị hoàn toàn trống trơn, chưa được cấu hình địa chỉ IP hay các dịch vụ quản trị từ xa (Telnet/SSH) để kết nối qua mạng.
+> Mọi thiết bị mạng, thiết bị bảo mật (Tường lửa) hay Server mới mua xuất xưởng, hoặc khi cần cài đặt lại hệ điều hành (Boot lại OS), bắt buộc phải sử dụng phương pháp cắm dây Console trực tiếp ở khoảng cách ngắn. Vì lúc này thiết bị hoàn toàn trống trơn, chưa được cấu hình địa chỉ IP hay các dịch vụ quản trị từ xa (Telnet/SSH) để kết nối qua mạng.
 
 ### Ba chế độ (Modes) hoạt động cốt lõi của Cisco IOS:
 1. **User EXEC Mode (`Router> `):** Chế độ người dùng cơ bản. Chỉ xem được một vài thông số rất hạn chế, hoàn toàn không có quyền thay đổi cấu hình.
 2. **Privileged EXEC Mode (`Router# `):** Chế độ đặc quyền (truy cập bằng lệnh `enable`). Cho phép hiển thị toàn bộ thông số cấu hình sâu của phần cứng và hệ thống qua các lệnh `show`, nhưng vẫn không có quyền chỉnh sửa thông số mạng.
-3. **Global Configuration Mode (`Router(config)# `):** Chế độ cấu hình toàn cục (truy cập bằng lệnh `configure terminal`). Tại đây kỹ sư chính thức có quyền thực thi các lệnh thay đổi, thiết lập thông số cho toàn bộ thiết bị.
+3. **Global Configuration Mode (`Router(config)# `):** Chế độ cấu hình toàn cục (truy cập bằng lệnh `configure terminal`). Tại đây chính thức có quyền thực thi các lệnh thay đổi, thiết lập thông số cho toàn bộ thiết bị.
 
 ---
 
-## II. Các phím tắt và Quy tắc gõ lệnh bắt buộc của Kỹ sư
+## II. Các phím tắt và Quy tắc gõ lệnh bắt buộc 
 
 * **Phím `Tab` (Tự động hoàn thiện từ):** Giúp hoàn thành chữ cái câu lệnh một cách nhanh và chính xác nhất, tránh gõ sai chính tả.
   * *Ví dụ:* Gõ `conf` rồi ấn `Tab` $\rightarrow$ CLI tự điền đầy đủ chữ `configure`.
