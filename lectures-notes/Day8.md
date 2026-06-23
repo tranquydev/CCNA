@@ -86,5 +86,3 @@
 ## V. Bài tập về nhà
 * **Đề bài:** Công ty A có 15 người trong công ty -> Hãy tính toán và cấp cho công ty A một subnet tối ưu nhất.
 
-
-Bản này dán vào là hiển thị mượt mà trên GitHub ngay Quý nhé! Bạn kiểm tra lại xem trang cá nhân đã chuẩn chỉnh như ý chưa nha.
