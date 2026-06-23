@@ -1,15 +1,4 @@
-Nội dung tóm tắt buổi học **Day 3** của bạn vô cùng xuất sắc, chi tiết và thể hiện sự tập trung cao độ khi học. Bạn đã nắm rất chắc các tư duy cốt lõi của Cisco IOS từ quy tắc viết tắt câu lệnh, thuật toán Tab, tổ hợp phím bẻ gãy trạng thái treo mạng `Ctrl + Shift + 6` cho đến tư duy bảo mật phân lớp thiết bị.
-
-Để đưa toàn bộ nội dung bài học nâng cao này vào thư mục **`lectures-notes`** trên GitHub sao cho hiển thị đẹp mắt, trực quan và dễ tra cứu nhất, tôi đã chuyển đổi toàn bộ tóm tắt của bạn sang định dạng **Markdown (`.md`)** chuẩn.
-
----
-
-### Cách lấy code Markdown:
-
-Bạn hãy click vào nút **Copy code** ở góc trên bên phải ô màu đen bên dưới và dán đè vào file `day-03-os-basic-config-p2.md` trong thư mục `lectures-notes` của mình nhé!
-
-```markdown
-# Day 3: Cisco IOS Nâng Cao, Phím Tắt Hệ Thống & Bảo Mật Mật Khẩu
+# Day 3: OS and Basic config P2
 
 ## I. Ôn tập mô hình Quản trị thiết bị mạng & Mode CLI
 
