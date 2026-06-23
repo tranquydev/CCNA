@@ -96,7 +96,7 @@ Router(config)# hostname <Tên_Muốn_Đổi>
 
 ---
 
-## V. Bài Tập Thực Hành Số 1 (Lab ban đầu)
+## V. Bài Tập Thực Hành 
 
 * **Công cụ:** Cisco Packet Tracer, sử dụng Router **2811**.
 * **Yêu cầu:** Khởi động thiết bị, gõ `no` để bỏ qua Setup Mode. Vào chế độ cấu hình đổi tên Router thành tên viết tắt của mình (Ví dụ: `TRANQUY`). Sau đó lùi thiết bị về lại chế độ *User EXEC Mode* (hiển thị dấu `>`).
