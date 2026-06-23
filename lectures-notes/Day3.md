@@ -106,6 +106,5 @@ Router(config)# banner motd # CANH BAO: Day la thiet bi cua Ngan Hang. Moi hanh 
 
 * **Yêu cầu:** Triển khai trên Router 2811. Thực hiện đổi tên Router bằng lệnh viết tắt, cấu hình đồng thời mật khẩu `enable secret`, mật khẩu cổng `line console 0` và cấu hình `banner motd`.
 * **Minh chứng hoàn thành:** Gõ `exit` thoát hẳn ra ngoài màn hình đen kịch khung để kiểm tra quy trình bảo mật 3 lớp: hiện biểu ngữ cảnh báo banner $\rightarrow$ bắt nhập password Console mới cho lọt vào User Mode $\rightarrow$ gõ lệnh `enable` bắt nhập password đặc quyền mới cho vào chế độ Privileged EXEC.
-*(Trạng thái bài tập: Đã cấu hình và nộp bài trên nhóm đạt chuẩn Correct 100%).*
 
 ---
