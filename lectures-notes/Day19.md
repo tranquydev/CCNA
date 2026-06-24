@@ -47,9 +47,7 @@ Router(config)# enable secret cisco        ! BẮT BUỘC: Đặt pass cho Privi
 
 ---
 
-## IV. Định hướng Nghề nghiệp Kỹ sư CNTT/Viễn thông
-
-Giảng viên vạch ra sơ đồ ma trận nhân sự để học viên định hướng bến đỗ sự nghiệp:
+## IV. Định hướng Nghề nghiệp Kỹ sư Viễn thông
 
 ### 1. Khối trường phái: Kỹ sư Triển khai (Post-Sale / SI Engineer)
 
