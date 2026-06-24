@@ -1,4 +1,4 @@
-# Day 15: Nguyên Lý Giao Thức Phân Giải Địa Chỉ ARP & Quy Luật Bảng MAC Nâng Cao
+# Day 15: ARP 
 
 ## I. Ba quy luật lưu trữ nâng cao của Bảng địa chỉ MAC trên Switch
 
