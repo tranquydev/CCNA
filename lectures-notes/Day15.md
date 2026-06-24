@@ -12,7 +12,7 @@
 * Nếu một cổng vật lý trên Switch bị rút dây cáp mạng hoặc bị tắt bằng lệnh `shutdown` (Trạng thái **Link Down**), Switch lập tức xóa sạch toàn bộ các bản ghi địa chỉ MAC liên quan đến cổng đó ngay tức khắc để giải phóng bộ nhớ.
 
 ### 3. Quy luật 3: Ranh giới ánh xạ giữa Cổng (Port) và Địa chỉ MAC
-Giảng viên đưa ra 2 câu hỏi bẫy logic phỏng vấn doanh nghiệp lớn:
+2 câu hỏi bẫy logic phỏng vấn doanh nghiệp lớn:
 
 * **Câu hỏi 1:** *Một địa chỉ MAC có thể xuất hiện đồng thời tại nhiều cổng khác nhau trên một con Switch tại một thời điểm không?*
   * ➔ **Trả lời: KHÔNG THỂ.** Một địa chỉ MAC vật lý tại một thời điểm duy nhất chỉ có quyền nằm ở duy nhất một cổng Switch. Tiến trình rút cáp mạng từ cổng 1 cắm sang cổng 2 thực chất đã làm cổng 1 rơi vào Link Down và xóa bản ghi cũ trước khi học bản ghi mới ở cổng 2. Nếu một bảng MAC ghi nhận 1 địa chỉ MAC nằm ở 2 cổng khác nhau, bảng đó sai logic hoàn toàn hoặc hệ thống đang dính lỗi Loop mạng (Vòng lặp Layer 2).
