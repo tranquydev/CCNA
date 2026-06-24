@@ -42,7 +42,6 @@ Router# configure terminal
 Router(config)# interface GigabitEthernet 0/0
 Router(config-if)# no shutdown
 Router(config-if)# ip address dhcp    ! Ép Router đi xin IP động
-
 ```
 
 #### ➌ Kiểm tra
@@ -55,5 +54,4 @@ Router(config-if)# ip address dhcp    ! Ép Router đi xin IP động
 1. Xây dựng topo: 1 DHCP Server, 1 Switch, 1 Router, 2 PC.
 2. Cấu hình DHCP dải `.1.100` trở lên.
 3. Chụp ảnh xác nhận PC nhận đúng IP động.
-
 ```
