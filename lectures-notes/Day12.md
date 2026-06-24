@@ -2,8 +2,6 @@
 
 ## I. Chữa Bài tập thiết kế VLSM nâng cao bằng Phương pháp Bước Nhảy
 
-Mở đầu buổi học, giảng viên tiến hành sửa chi tiết bài toán thiết kế mạng con tối ưu Day 11 từ dải mạng mẹ gốc ban đầu là `10.10.8.0/22`. Thầy giáo đánh giá rất cao bài làm của Long và Trang vì trình bày khoa học, tính toán chính xác cột mốc tràn số ở Octet thứ 3 để đạt mốc điểm tuyệt đối.
-
 ### Kịch bản quy hoạch dải số phòng ban theo nhu cầu:
 * **Sắp xếp thứ tự ưu tiên (Nhu cầu từ lớn đến bé):** Phòng 300 máy (Cần khối /23) ➔ Phòng 100 máy (Cần khối /25) ➔ Phòng 30 máy (Cần khối /27) ➔ Phòng 10 máy (Cần khối /28).
 
