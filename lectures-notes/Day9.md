@@ -1,4 +1,4 @@
-# Day 9: Kỹ Thuật Chia Mạng Con VLSM & Thiết Kế Quy Hoạch Hệ Thống Mạng Doanh Nghiệp
+# Day 9: IP P3
 
 ## I. Sửa bài tập về nhà Day 8 - Phân tích định hoạch dải số phòng ban theo nhu cầu máy trạm
 
