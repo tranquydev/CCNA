@@ -43,7 +43,7 @@ Gói tin dữ liệu chính (bản tin ICMP) buộc phải đóng băng, giữ l
 
 #### ➋ Bản tin Chiều về - ARP Reply (Cơ chế Unicast đường thẳng bảo mật)
 * PC2 nạp thông tin ngược lại để tạo bản tin trả lời ARP Reply. Do lúc này đã biết rõ đích danh MAC của máy PC1 (thu được từ gói tin chiều đi), nó đóng gói bản tin theo cơ chế Unicast chuẩn xác:
-* **Cấu trúc bản tin ARP Reply:** * `IP Source: 192.168.1.2` | `IP Dest: 192.168.1.1`
+* **Cấu trúc bản tin ARP Reply:**  `IP Source: 192.168.1.2` | `IP Dest: 192.168.1.1`
   * `MAC Source: A2` | `MAC Dest: A1`
 * **Hành động của Switch:** Gói tin lọt vào cổng 2 của Switch. Switch lập tức thực thi việc học MAC nguồn `A2` gắn vào cổng 2. Tiếp theo, đọc trường MAC Dest thấy ghi mã `A1` ➔ Tra cứu bộ nhớ bảng MAC thấy rõ dòng lưu trữ: `A1` nằm ở cổng số 1. Switch thực hiện lệnh chuyển mạch **Forwarding** phóng một đường thẳng Unicast duy nhất ra đúng cổng số 1 để về cạc mạng máy PC1.
 * **Kết quả:** PC1 nhận bản tin ARP Reply, ghi nhận chính xác mã MAC phần cứng của máy `192.168.1.2` chính là `A2`. Nó lập tức giải phóng gói tin Ping đang bị đóng băng lúc đầu, điền mã `A2` vào ô trống MAC Destination và phóng đi thông mạng trọn vẹn.
@@ -74,15 +74,13 @@ Sau khi tốn băng thông phát bản tin ARP Request để tìm được MAC c
 
 ### 1. Trên hệ điều hành máy tính Windows (Gõ lệnh trong Command Prompt - cmd)
 * Xem bảng bộ nhớ đệm ARP hiện tại trên máy tính:
-  ```cmd
-  arp -a
-
+```cmd
+ arp -a
 ```
 
 * Xóa sạch bảng bộ nhớ đệm ARP (ép máy tính phải phát bản tin ARP Request học lại từ đầu):
 ```cmd
 arp -d
-
 ```
 
 
@@ -92,14 +90,12 @@ arp -d
 * Xem bảng bộ nhớ dữ liệu ARP trên Router:
 ```ios
 Router# show arp
-
 ```
 
 
 * Xóa sạch bảng ARP hiện tại trên thiết bị:
 ```ios
 Router# clear arp-cache
-
 ```
 
 
