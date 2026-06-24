@@ -1,7 +1,6 @@
-# Day 16: Lab IP, Layer 4 (TCP/UDP) & Dịch vụ DHCP
+# Day 16: L4 and Application
 
-## II. Hệ thống hóa bản chất Layer 2 Switching và ARP (Sau ôn tập)
-Sau 30 phút tự học, thầy giáo hệ thống lại ma trận logic Layer 2 để học viên khắc sâu phản xạ:
+## I. Hệ thống hóa bản chất Layer 2 Switching và ARP (Sau ôn tập)
 
 ### 1. Tiến trình hai bước xử lý gói tin bất biến của Switch
 * **Bước 1 (Xây dựng bảng MAC - Mac-Address-Table):** Switch đọc trường `MAC Source` trong khung dữ liệu đi vào cổng vật lý để học vị trí. Thiết lập đồng hồ `Aging Time` đếm ngược từ 300 giây (5 phút), tự động xóa nếu cổng dính lỗi `Link Down`.
@@ -12,7 +11,7 @@ Sau 30 phút tự học, thầy giáo hệ thống lại ma trận logic Layer 2
 ### 2. Bản chất cốt lõi của Giao thức ARP
 Khi gói tin chính (ICMP/Ping) bị đóng băng do khuyết địa chỉ phần cứng đối phương, thiết bị tự phóng bản tin `ARP Request` mang nhãn quảng bá kịch trần `MAC Destination: FFFF.FFFF.FFFF` (MAC Broadcast) để vượt qua tiến trình `Flooding` của Switch đi truy tìm địa chỉ MAC Đích. Máy trạm/Router lưu ánh xạ IP ⟷ MAC vào Bảng ARP (ARP Table) trong vòng 10 phút.
 
-## III. Kiến trúc Tầng giao vận Layer 4: TCP đối lập UDP
+## II. Kiến trúc Tầng giao vận Layer 4: TCP đối lập UDP
 Tầng giao vận (Transport Layer) quản lý cơ chế phân mảnh và điều phối phương thức truyền tải dữ liệu thô từ tầng ứng dụng đưa xuống.
 
 ### 1. Giao thức TCP (Tin cậy)
@@ -31,7 +30,7 @@ Tầng giao vận (Transport Layer) quản lý cơ chế phân mảnh và điề
 * Port 23 (TCP): Telnet.
 * Port 22 (TCP): SSH.
 
-## IV. Thực hành cấu hình dịch vụ cấp IP tự động (DHCP)
+## III. Thực hành cấu hình dịch vụ cấp IP tự động (DHCP)
 
 ### 1. Ý nghĩa
 Thay vì gán tay thủ công từng máy (Static IP) dễ sai sót, ta dựng DHCP Server để nó tự động phân bổ: IP, Subnet Mask, Gateway, DNS theo thời hạn thuê (Lease Time).
@@ -52,7 +51,7 @@ Router(config-if)# ip address dhcp   ! Ép Router đi xin IP động từ Server
 * **Kiểm tra Router:** `show ip interface brief` (Dòng Method hiện DHCP là thành công).
 * **Trên PC Client:** Chuyển cạc mạng từ Static sang `DHCP` ➔ Máy tự động nạp IP, Gateway, DNS.
 
-## V. Bài tập về nhà bắt buộc Day 16
+## IV. Bài tập về nhà bắt buộc Day 16
 
 * **Topo:** 1 DHCP Server + 1 Switch + 1 Router + 2 PC trạm.
 * **Yêu cầu:** Cấu hình dải IP tự động nhảy từ mốc .100 trở đi. Chụp ảnh màn hình máy con nhận IP động gửi lên nhóm lớp.
