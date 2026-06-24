@@ -1,4 +1,4 @@
-# Day 12: Bản Chất Địa Chỉ Thế Hệ Mới IPv6 & Kỹ Thuật Viết Rút Gọn Kịch Khung
+# Day 12: Lab IP
 
 ## I. Chữa Bài tập thiết kế VLSM nâng cao bằng Phương pháp Bước Nhảy
 
