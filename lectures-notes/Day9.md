@@ -2,8 +2,6 @@
 
 ## I. Sửa bài tập về nhà Day 8 - Phân tích định hoạch dải số phòng ban theo nhu cầu máy trạm
 
-Để bắt đầu buổi học, giảng viên tiến hành kiểm tra và sửa chi tiết bài tập về nhà của Day 8. Bài toán yêu cầu kỹ sư phải tính toán ra số hiệu Prefix (độ dài dải mạng) tối ưu nhất, sát sườn nhất dựa trên nhu cầu về số lượng máy trạm thực tế (Host demand) của từng phòng ban nhằm tiết kiệm tối đa quỹ địa chỉ IP.
-
 ### 1. Phòng ban A (Nhu cầu: 8 Hosts)
 * **Tiến trình lập luận:** Ngoài 8 địa chỉ gán cho máy tính nhân viên, hệ thống luôn luôn phải trích thêm 2 địa chỉ chết cố định bắt buộc là địa chỉ mạng (Network ID) và địa chỉ quảng bá (Broadcast IP). Do đó, tổng số lượng IP tối thiểu hệ thống cần tiêu tốn là: `8 + 2 = 10` địa chỉ IP.
 * **Đánh giá khối mạng:** * Nếu kỹ sư chọn khối mạng hệ `/29`, không gian IP sở hữu sẽ là 2^3 = 8 địa chỉ. Sau khi trừ đi 2 địa chỉ chết, số lượng IP Host khả dụng thực tế chỉ còn lại `8 - 2 = 6` IP, dẫn đến tình trạng thiếu hụt tài nguyên (6 < 8).
