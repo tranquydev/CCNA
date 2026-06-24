@@ -4,7 +4,7 @@
 
 ### 1. Phòng ban A (Nhu cầu: 8 Hosts)
 * **Tiến trình lập luận:** Ngoài 8 địa chỉ gán cho máy tính nhân viên, hệ thống luôn luôn phải trích thêm 2 địa chỉ chết cố định bắt buộc là địa chỉ mạng (Network ID) và địa chỉ quảng bá (Broadcast IP). Do đó, tổng số lượng IP tối thiểu hệ thống cần tiêu tốn là: `8 + 2 = 10` địa chỉ IP.
-* **Đánh giá khối mạng:** * Nếu kỹ sư chọn khối mạng hệ `/29`, không gian IP sở hữu sẽ là 2^3 = 8 địa chỉ. Sau khi trừ đi 2 địa chỉ chết, số lượng IP Host khả dụng thực tế chỉ còn lại `8 - 2 = 6` IP, dẫn đến tình trạng thiếu hụt tài nguyên (6 < 8).
+* **Đánh giá khối mạng:**  Nếu kỹ sư chọn khối mạng hệ `/29`, không gian IP sở hữu sẽ là 2^3 = 8 địa chỉ. Sau khi trừ đi 2 địa chỉ chết, số lượng IP Host khả dụng thực tế chỉ còn lại `8 - 2 = 6` IP, dẫn đến tình trạng thiếu hụt tài nguyên (6 < 8).
   * Nếu nâng lên khối mạng hệ `/28`, không gian IP sở hữu là 2^4 = 16 địa chỉ. Sau khi trừ đi 2 địa chỉ chết, hệ thống còn lại `16 - 2 = 14` IP Host khả dụng. Khối này hoàn toàn chứa vừa vặn 8 máy trạm và còn dư dung lượng dự phòng cho phòng ban mở rộng nhân sự.
 * ➔ **Kết luận:** Phòng ban A bắt buộc phải đặt nhãn **Prefix `/28`**.
 
