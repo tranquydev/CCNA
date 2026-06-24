@@ -8,9 +8,6 @@
   
   Trong môi trường doanh nghiệp, không một ai chấp nhận một file thiết kế hạ tầng nửa chữ thô, nửa số nhị phân hay ghi độc nhất một số 0 cô độc. Sự cẩu thả, thiếu chỉn chu chỉ 1 chữ số trong ngành mạng hoàn toàn đủ sức làm sập toàn bộ hệ thống dữ liệu của một ngân hàng, một tập đoàn lớn ngay lập tức!"
 
-### 2. Tuyên dương tinh thần học tập đạt chuẩn
-* Ngược lại với lỗi làm ẩu trên, giảng viên tuyên dương bài làm của Long và Trang. 
-* Đặc biệt, Long đã thực hiện phân rã các chuỗi bit nhị phân rất khoa học, sử dụng các dấu vạch thẳng để ngăn cách ranh giới vùng mạng và vùng máy một cách rõ ràng, giúp tiến trình tính toán đạt độ chính xác tuyệt đối, không sai lệch bất kỳ một ký tự nào.
 
 ---
 
