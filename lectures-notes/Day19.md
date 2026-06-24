@@ -29,7 +29,6 @@ Router(config-line)# transport input telnet ! Ép cổng chỉ đón lưu lượ
 Router(config-line)# password cisco        ! Thiết lập mật khẩu cửa ngõ
 Router(config-line)# login                 ! Ép thiết bị bắt nhập mật khẩu
 Router(config-line)# exit
-
 Router(config)# enable secret cisco        ! BẮT BUỘC: Đặt pass cho Privileged EXEC Mode
 ```
 
@@ -71,5 +70,5 @@ Giảng viên vạch ra sơ đồ ma trận nhân sự để học viên định
 ---
 
 
-* **Bài tập tối nay:** Xây dựng topo mạng, gõ `line vty 0 15`, cấu hình Telnet thành công từ PC sang Router, chụp hình CLI nộp bài báo cáo lên nhóm lớp.
+* **Bài tập :** Xây dựng topo mạng, gõ `line vty 0 15`, cấu hình Telnet thành công từ PC sang Router.
 y đã bao gồm đầy đủ mọi chi tiết từ Chặng 2 (kết nối Telnet) cho đến những lời định hướng nghề nghiệp "xương máu" mà thầy giáo đã giảng. Chúc bạn ôn tập thật tốt cho buổi thi cuối kì vào tối thứ Tư nhé! Bạn đã ôn qua các bộ lệnh `show` bảng ARP và MAC chưa? Nếu muốn tôi giúp bạn tổng hợp lại toàn bộ các lệnh cấu hình từ Day 1 đến Day 19 thành một "Cheat Sheet" bỏ túi, hãy cho tôi biết nhé!
