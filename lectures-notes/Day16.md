@@ -1,6 +1,6 @@
 # Day 16: L4 and Application
 
-## I. Hệ thống hóa bản chất Layer 2 Switching và ARP (Sau ôn tập)
+## I. Hệ thống hóa bản chất Layer 2 Switching và ARP 
 
 ### 1. Tiến trình hai bước xử lý gói tin bất biến của Switch
 * **Bước 1 (Xây dựng bảng MAC - Mac-Address-Table):** Switch đọc trường `MAC Source` trong khung dữ liệu đi vào cổng vật lý để học vị trí. Thiết lập đồng hồ `Aging Time` đếm ngược từ 300 giây (5 phút), tự động xóa nếu cổng dính lỗi `Link Down`.
