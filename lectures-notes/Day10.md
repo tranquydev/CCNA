@@ -3,7 +3,7 @@
 ## I. Sửa bài tập về nhà Day 9 - Vạch trần lỗi tư duy "Chia bánh trùng dải"
 
 ### 1. Bất cập lỗi Overlap IP (Trùng dải số)
-Giảng viên bóc tách lỗi sai điển hình của học viên Công khi quy hoạch dải IP cho các phòng ban:
+ bóc tách lỗi sai điển hình khi quy hoạch dải IP cho các phòng ban:
 * Phòng B được cấp dải: `192.168.1.96/27` (Chứa dải IP Host từ .96 đến .127).
 * Phòng C được cấp dải: `192.168.1.64/26` (Chứa dải IP Host từ .64 đến .127).
 
