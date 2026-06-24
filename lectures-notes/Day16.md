@@ -56,4 +56,3 @@ Router(config-if)# ip address dhcp   ! Ép Router đi xin IP động từ Server
 * **Topo:** 1 DHCP Server + 1 Switch + 1 Router + 2 PC trạm.
 * **Yêu cầu:** Cấu hình dải IP tự động nhảy từ mốc .100 trở đi. Chụp ảnh màn hình máy con nhận IP động gửi lên nhóm lớp.
 * **Nhắc nhở:** Ai trốn nộp bài sẽ bị phạt gõ lệnh gấp đôi!
-```
