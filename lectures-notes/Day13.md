@@ -70,7 +70,6 @@ PR1(config-if)# interface GigabitEthernet 0/1
 PR1(config-if)# no shutdown
 PR1(config-if)# ip address 172.16.6.33 255.255.255.224
 PR1(config-if)# end
-
 ```
 
 #### ➋ Khai báo IP quản trị ảo và Default Gateway trên Switch Room_312:
@@ -84,7 +83,6 @@ Room_312(config-if)# no shutdown
 Room_312(config-if)# ip address 172.16.6.66 255.255.255.240
 Room_312(config-if)# exit
 Room_312(config)# ip default-gateway 172.16.6.65
-
 ```
 
 #### ➌ Nạp thông số tĩnh trên máy trạm PC Client (Giao diện đồ họa GUI):
@@ -99,4 +97,4 @@ Room_312(config)# ip default-gateway 172.16.6.65
 ## V. Bài tập thực hành bắt buộc Day 13
 
 * Thực hiện hoàn thiện, sửa lỗi tự động và đẩy tiến độ đạt mức Full 100% Completion cho 2 bài Lab tính điểm tự động trên phần mềm Packet Tracer gồm: **Bài Lab 11.9.3** và **Bài Lab 11.10.1**.
-* Thực hiện gõ lệnh `write` (hoặc `wr`) để bảo toàn lưu file cấu hình trong bộ nhớ NVRAM, chụp hình ảnh thông báo hoàn thành 100% gửi lên nhóm lớp để lấy điểm điều kiện thi kết thúc Học phần.
+* Thực hiện gõ lệnh `write` (hoặc `wr`) để bảo toàn lưu file cấu hình trong bộ nhớ NVRAM.
