@@ -1,6 +1,6 @@
 # Day 11: IP P5
 
-## I. Chấn chỉnh kỷ luật lớp học & Chữa bài tập về nhà Day 10
+## I. Chấn chỉnh kỷ luật & Chữa bài tập về nhà Day 10
 
 ### 1. Vạch trần lỗi cẩu thả nghiêm trọng chặn điểm số tối đa
 * **Hiện tượng lỗi:** Khi nộp bài giải, chỉ ghi độc nhất dải số nhị phân của phần Host Part hoặc ghi các cụm số thập phân khuyết thiếu, hoàn toàn lược bỏ đi thông số mặt nạ mạng.
