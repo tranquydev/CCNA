@@ -68,23 +68,23 @@ Cho dải mạng mẹ IPv6 gốc ban đầu là `2001:DB8:A::/48`. Hãy thực h
 
 * **Bước 1 (Tính số khối mạng tạo thành):** Từ độ dài /48 nâng cấp lên /50 ta vay mượn thêm: `50 - 48 = 2` bit nhị phân. Số lượng khối mạng con sinh ra tương ứng bằng: 2^2 = **4 khối mạng**.
 * **Bước 2 (Phân rã Hextet chứa điểm cắt bit):** Ba khối Hextet đầu (`2001:DB8:A`) chiếm đúng 48 bit Network Part đầu tiên nên được khóa cứng giữ nguyên. Điểm mượn bit nằm ở khối Hextet thứ 4. Ta tiến hành phân rã 4 ký tự Hexa của Hextet thứ 4 sang 16 bit nhị phân, bốc đúng 2 bit đầu tiên làm bit mượn nhảy qua 4 trạng thái (`00`, `01`, `10`, `11`), toàn bộ các bit Host còn lại gán bằng số 0:
-  * **Khối con 1 (Trường hợp mượn cụm bit 00):** * Mã nhị phân Hextet 4: `[00]00.0000.0000.0000` (Binary) ➔ Quy đổi hệ Hexa bằng: `0000`.
+  * **Khối con 1 (Trường hợp mượn cụm bit 00):**  Mã nhị phân Hextet 4: `[00]00.0000.0000.0000` (Binary) ➔ Quy đổi hệ Hexa bằng: `0000`.
     * Kết quả nén lại: **`2001:DB8:A::/50`**
-  * **Khối con 2 (Trường hợp mượn cụm bit 01):** * Mã nhị phân Hextet 4: `[01]00.0000.0000.0000` (Binary) ➔ Quy đổi hệ Hexa bằng: `4000`. (Vị trí bit thứ hai mang số 1 tương ứng giá trị 2^2 = 4).
+  * **Khối con 2 (Trường hợp mượn cụm bit 01):**  Mã nhị phân Hextet 4: `[01]00.0000.0000.0000` (Binary) ➔ Quy đổi hệ Hexa bằng: `4000`. (Vị trí bit thứ hai mang số 1 tương ứng giá trị 2^2 = 4).
     * Kết quả nén lại: **`2001:DB8:A:4000::/50`**
-  * **Khối con 3 (Trường hợp mượn cụm bit 10):** * Mã nhị phân Hextet 4: `[10]00.0000.0000.0000` (Binary) ➔ Quy đổi hệ Hexa bằng: `8000`. (Vị trí bit thứ ba mang số 1 tương ứng giá trị 2^3 = 8).
+  * **Khối con 3 (Trường hợp mượn cụm bit 10):**  Mã nhị phân Hextet 4: `[10]00.0000.0000.0000` (Binary) ➔ Quy đổi hệ Hexa bằng: `8000`. (Vị trí bit thứ ba mang số 1 tương ứng giá trị 2^3 = 8).
     * Kết quả nén lại: **`2001:DB8:A:8000::/50`**
-  * **Khối con 4 (Trường hợp mượn cụm bit 11):** * Mã nhị phân Hextet 4: `[11]00.0000.0000.0000` (Binary) ➔ Quy đổi hệ Hexa bằng: `C000`. (Tổ hợp bit 1100 tương ứng 2^3 + 2^2 = 8 + 4 = 12, theo quy ước mã chữ cái hệ 16 là chữ C).
+  * **Khối con 4 (Trường hợp mượn cụm bit 11):**  Mã nhị phân Hextet 4: `[11]00.0000.0000.0000` (Binary) ➔ Quy đổi hệ Hexa bằng: `C000`. (Tổ hợp bit 1100 tương ứng 2^3 + 2^2 = 8 + 4 = 12, theo quy ước mã chữ cái hệ 16 là chữ C).
     * Kết quả nén lại: **`2001:DB8:A:C000::/50`**
 
 ---
 
 ## V. Thực hành tra cứu đề thi Chứng chỉ Quốc tế & Bài tập về nhà
 
-Giảng viên công khai cấu trúc một câu hỏi tính toán địa chỉ IPv6 trích từ Kho đề thi Chứng chỉ Quốc tế Cisco CCNA chính thống để cả lớp cùng thực hành làm quen với áp lực phòng thi:
+Câu hỏi tính toán địa chỉ IPv6 trích từ Kho đề thi Chứng chỉ Quốc tế Cisco CCNA
 
 * **Đề bài thi mẫu:** Cho Subnet `2001:DB8:3C55:8D2::/64`. Hãy xác định địa chỉ IP Host khả dụng đầu tiên và địa chỉ IP Host khả dụng cuối cùng nằm trong dải mạng con này?
-* **Đáp án giải nhẩm siêu tốc của lớp:**
+* **Đáp án giải nhẩm siêu tốc :**
   * *IP Host khả dụng đầu tiên:* Được xác định bằng cách cộng thêm 1 đơn vị vào bit cuối cùng của dải số mạng ➔ **`2001:DB8:3C55:8D2::1`**
   * *IP Host khả dụng cuối cùng:* Được xác định bằng cách gán tất cả các bit thuộc vùng Host Part bằng số 1, ngoại trừ bit khóa cửa cuối cùng gán bằng số 0 ➔ **`2001:DB8:3C55:8D2:FFFF:FFFF:FFFF:FFFE`**
 
