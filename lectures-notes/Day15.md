@@ -33,7 +33,7 @@ Gói tin dữ liệu chính (bản tin ICMP) buộc phải đóng băng, giữ l
 
 #### ➊ Bản tin Chiều đi - ARP Request (Cơ chế Broadcast phát loa rộng rãi)
 * Để gói tin ra khỏi cạc mạng, PC1 mượn tạm địa chỉ MAC Broadcast kịch trần gồm 12 ký tự F (**`FFFF.FFFF.FFFF`**) điền vào ô trống MAC Destination.
-* **Cấu trúc bản tin ARP Request:** * `IP Source: 192.168.1.1` | `IP Dest: 192.168.1.2`
+* **Cấu trúc bản tin ARP Request:**  `IP Source: 192.168.1.1` | `IP Dest: 192.168.1.2`
   * `MAC Source: A1` | `MAC Dest: FFFF.FFFF.FFFF`
 * **Hành động của Switch:** Gói tin lọt vào cổng 1. Switch thực thi việc học MAC nguồn `A1` gắn vào cổng 1. Đọc trường MAC Dest thấy mã Broadcast `FFFF.FFFF.FFFF` ➔ Switch chạy lệnh **Flooding** nhân bản đồng loạt phát ra tất cả các cổng còn lại (cổng số 2 và cổng số 3), ngoại trừ cổng 1 nhận vào.
 
