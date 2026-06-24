@@ -94,7 +94,7 @@ Khi máy tính PC1 phóng gói dữ liệu Ping (ICMP Request) tới máy tính 
 
 ### ➌ Tiến trình gửi gói tin phản hồi ngược về (ARP / ICMP Reply)
 
-* Máy PC2 tiến hành tạo gói tin phản hồi trả ngược về cho PC1 với thông số dải số được đổi chiều: **MAC Source: `MAC_PC2` | MAC Destination: `MAC_PC1`.
+* Máy PC2 tiến hành tạo gói tin phản hồi trả ngược về cho PC1 với thông số dải số được đổi chiều: MAC Source: `MAC_PC2` | MAC Destination: `MAC_PC1`.
 * Gói tin lọt vào cổng Port số 2 của Switch. Switch lập tức thực thi lại quy trình ngầm:
 * **Thực thi Bước 1 (Học nguồn):** Đọc trường *MAC Source* biết được `MAC_PC2` đang cắm dây tại cổng số 2 ➔ Nạp dòng ánh xạ thứ hai vào bảng bộ nhớ Mac-Address-Table.
 * **Thực thi Bước 2 (Tra đích):** Đọc trường *MAC Destination* thấy ghi mã `MAC_PC1` ➔ Tra bảng bộ nhớ và phát hiện ngay dòng lưu trữ đã học được từ chặng đi: `MAC_PC1` đang nằm ở cổng Port số 1.
