@@ -1,4 +1,4 @@
-# Day 12: Lab IP
+# Day 12: IPv6
 
 ## I. Chữa Bài tập thiết kế VLSM nâng cao bằng Phương pháp Bước Nhảy
 
