@@ -2,11 +2,9 @@
 
 ## I. Chấn chỉnh kỷ luật lớp học & Chữa bài tập về nhà Day 10
 
-Mở đầu buổi học, giảng viên tiến hành kiểm tra kỹ lưỡng bài tập về nhà liên quan đến kỹ thuật chia mạng con VLSM của cả lớp. Thầy giáo phê bình gay gắt tính cẩu thả trong quá trình trình bày và nộp bài của một số học viên, điển hình là Công và Hoàng.
-
 ### 1. Vạch trần lỗi cẩu thả nghiêm trọng chặn điểm số tối đa
-* **Hiện tượng lỗi:** Khi nộp bài giải, Công và Hoàng chỉ ghi độc nhất dải số nhị phân của phần Host Part hoặc ghi các cụm số thập phân khuyết thiếu, hoàn toàn lược bỏ đi thông số mặt nạ mạng.
-* **⚠️ Bài học chấn chỉnh kỷ luật từ Giảng viên:** "Quá trình các bạn ngồi làm nháp ra giấy có thể viết tắt, viết ngoáy cho nhanh. Nhưng khi đã kết luận đáp án cuối cùng để nộp cho giám thị trong phòng thi quốc tế, hoặc sau này đi làm thực tế chịu trách nhiệm viết file thiết kế quy hoạch hạ tầng nộp lên cho Sếp, địa chỉ IPv4 bắt buộc phải được hiển thị 100% ở dạng số thập phân có đầy đủ nhãn dấu xuộc và số hiệu Prefix đi kèm (Ví dụ chuẩn: `192.168.1.0/26`). 
+* **Hiện tượng lỗi:** Khi nộp bài giải, chỉ ghi độc nhất dải số nhị phân của phần Host Part hoặc ghi các cụm số thập phân khuyết thiếu, hoàn toàn lược bỏ đi thông số mặt nạ mạng.
+* **⚠️ Bài học chấn chỉnh kỷ luật :** "Quá trình các bạn ngồi làm nháp ra giấy có thể viết tắt, viết ngoáy cho nhanh. Nhưng khi đã kết luận đáp án cuối cùng để nộp cho giám thị trong phòng thi quốc tế, hoặc sau này đi làm thực tế chịu trách nhiệm viết file thiết kế quy hoạch hạ tầng nộp lên cho Sếp, địa chỉ IPv4 bắt buộc phải được hiển thị 100% ở dạng số thập phân có đầy đủ nhãn dấu xuộc và số hiệu Prefix đi kèm (Ví dụ chuẩn: `192.168.1.0/26`). 
   
   Trong môi trường doanh nghiệp, không một ai chấp nhận một file thiết kế hạ tầng nửa chữ thô, nửa số nhị phân hay ghi độc nhất một số 0 cô độc. Sự cẩu thả, thiếu chỉn chu chỉ 1 chữ số trong ngành mạng hoàn toàn đủ sức làm sập toàn bộ hệ thống dữ liệu của một ngân hàng, một tập đoàn lớn ngay lập tức!"
 
