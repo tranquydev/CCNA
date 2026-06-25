@@ -102,12 +102,12 @@ Router# clear arp-cache
 
 ---
 
-## V. Thực hành Bài tập tư duy Logic tại lớp
+## V. Thực hành Bài tập tư duy Logic 
 
 * **Bản chất số gói tin Ping mặc định:** Trên hệ điều hành Windows, khi thực hiện gõ lệnh ping, cạc mạng máy tính mặc định phóng ra liên tục 4 gói tin độc lập để kiểm tra (Cisco IOS phóng ra 5 gói tin).
 * **Giải mã hiện tượng mất gói tin đầu tiên:** Gói tin đầu tiên do chưa biết MAC đích nên hệ thống sẽ báo hiệu timeout/mất gói do phải tốn thời gian chạy tiến trình ARP Request tìm địa chỉ. Từ gói tin thứ 2 trở đi, dữ liệu sẽ đi thẳng bằng lệnh Unicast thông qua bảng bộ nhớ đệm ARP Cache vừa nạp nên đường truyền đạt độ ổn định tuyệt đối.
 
-### 🎯 Nhiệm vụ về nhà bắt buộc Day 15:
+### 🎯 Nhiệm vụ:
 
 * Học thuộc lòng toàn bộ tiến trình đóng gói dữ liệu của bản tin ARP chiều đi (Request) và bản tin chiều về (Reply) kết hợp nguyên lý 2 bước xử lý của Switch.
 
