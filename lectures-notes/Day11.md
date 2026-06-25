@@ -74,6 +74,6 @@ Bước nhảy của một Prefix chỉ đánh trực tiếp và làm thay đổ
   * **Cấp cho Phòng D (Cần nhãn `/27` -> Bước nhảy tương ứng là 32):** Xuất phát tại điểm cột mốc số `.96` vừa nhận ➔ **Subnet Phòng D: `192.168.1.96/27`** (Chiếm trọn dải từ .96 đến .127). Điểm tài nguyên thừa kế tiếp tịnh tiến lên mốc: `96 + 32 = 128`.
   * **Cấp cho Phòng B (Cần nhãn `/28` -> Bước nhảy tương ứng là 16):** Xuất phát tại điểm cột mốc số `.128` vừa nhận ➔ **Subnet Phòng B: `192.168.1.128/28`** (Chiếm trọn dải từ .128 đến .143).
 
-> 💾 **Đóng gói dữ liệu dự trữ:** Toàn bộ khối dải mạng còn dư thừa tính từ trị số vị trí `.1.144` kéo dài cho đến kịch khung `.1.255` được hệ thống đóng gói, cất kỹ vào kho lưu trữ tài nguyên của doanh nghiệp nhằm mục đích mở rộng quy mô sau này. Toàn bộ nhóm học viên (Công, Nhật, Trang, Huỳnh, Thắng, Long) đều gõ lệnh thực thi nộp kết quả nhẩm chính xác tuyệt đối lên group lớp.
+> 💾 **Đóng gói dữ liệu dự trữ:** Toàn bộ khối dải mạng còn dư thừa tính từ trị số vị trí `.1.144` kéo dài cho đến kịch khung `.1.255` được hệ thống đóng gói, cất kỹ vào kho lưu trữ tài nguyên của doanh nghiệp nhằm mục đích mở rộng quy mô sau này. 
 
 ---
