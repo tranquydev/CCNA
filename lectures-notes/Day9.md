@@ -107,6 +107,4 @@ kỹ sư mạng khi làm kỹ thuật VLSM (Variable Length Subnet Mask) là: **
   * ➔ **Subnet chính thức Phòng B: `192.168.1.128/28`**
   * *Bóc tách dải số:* Địa chỉ mạng là `.1.128`, địa chỉ quảng bá Broadcast là `.1.143`. Dải IP Host khả dụng gán cho máy tính nhân viên phòng B chạy liên tục từ **`192.168.1.129` đến `192.168.1.142`**.
 
-> 💾 **Quản trị kho tài nguyên dự trữ:** Toàn bộ kho không gian địa chỉ IP còn thừa dư dả tính từ cột mốc số **`.144` kéo dài cho đến kịch dải `.255`** của hệ thống /24 ban đầu sẽ được thiết bị trung tâm đóng băng, giữ lại làm kho dự trữ chiến lược. Sau này nếu công ty mở rộng thêm phòng ban mới, kỹ sư chỉ việc lôi kho dự trữ này ra cắt nhỏ tiếp. Bài toán quy hoạch thiết kế hoàn chỉnh đạt mốc điểm Correct tối đa của Cisco.
-
----
+> 💾 **Quản trị kho tài nguyên dự trữ:** Toàn bộ kho không gian địa chỉ IP còn thừa dư dả tính từ cột mốc số **`.144` kéo dài cho đến kịch dải `.255`** của hệ thống /24 ban đầu sẽ được thiết bị trung tâm đóng băng, giữ lại làm kho dự trữ chiến lược. Sau này nếu công ty mở rộng thêm phòng ban mới, kỹ sư chỉ việc lôi kho dự trữ này ra cắt nhỏ tiếp.
