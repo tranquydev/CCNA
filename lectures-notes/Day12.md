@@ -88,5 +88,5 @@ Câu hỏi tính toán địa chỉ IPv6 trích từ Kho đề thi Chứng chỉ
   * *IP Host khả dụng đầu tiên:* Được xác định bằng cách cộng thêm 1 đơn vị vào bit cuối cùng của dải số mạng ➔ **`2001:DB8:3C55:8D2::1`**
   * *IP Host khả dụng cuối cùng:* Được xác định bằng cách gán tất cả các bit thuộc vùng Host Part bằng số 1, ngoại trừ bit khóa cửa cuối cùng gán bằng số 0 ➔ **`2001:DB8:3C55:8D2:FFFF:FFFF:FFFF:FFFE`**
 
-### 🎯 Nhiệm vụ về nhà bắt buộc Day 12:
+### 🎯 Nhiệm vụ :
 * Viết lại toàn bộ tiến trình lập luận bóc tách nhị phân phân rã tìm 4 khối mạng con của dải `/50`.
