@@ -96,5 +96,5 @@ Room_312(config)# ip default-gateway 172.16.6.65
 
 ## V. Bài tập thực hành 
 
-* Thực hiện hoàn thiện, sửa lỗi tự động và đẩy tiến độ đạt mức Full 100% Completion cho 2 bài Lab tính điểm tự động trên phần mềm Packet Tracer gồm: **Bài Lab 11.9.3** và **Bài Lab 11.10.1**.
+* Thực hiện hoàn thiện gồm: **Bài Lab 11.9.3** và **Bài Lab 11.10.1**.
 * Thực hiện gõ lệnh `write` (hoặc `wr`) để bảo toàn lưu file cấu hình trong bộ nhớ NVRAM.
