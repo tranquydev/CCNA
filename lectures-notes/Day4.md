@@ -108,4 +108,4 @@ Khi cấu hình bị thiếu hoặc thanh tiến độ bị kẹt không lên đ
 
 ## V. Bài Tập Thực Hành Bắt Buộc (Day 4 Lớp)
 
-* **Nhiệm vụ:** Hoàn thiện trọn vẹn 3 file bài Lab tự động chấm điểm: **Lab 2.5.5**, **Lab 2.7.6**.
+* **Nhiệm vụ:** Hoàn thiện trọn vẹn 2 file bài Lab tự động chấm điểm: **Lab 2.5.5**, **Lab 2.7.6**.
