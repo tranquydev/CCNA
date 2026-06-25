@@ -123,7 +123,7 @@ Switch# clear mac-address-table dynamic
 
 ---
 
-## VI. Bài tập thực hành bắt buộc Day 14
+## VI. Bài tập thực hành 
 
 * **Nhiệm vụ Lab:** Tự thiết kế và kéo một sơ đồ mạng cơ bản gồm 1 thiết bị Switch và 3 máy trạm PC cắm dây vào các cổng vật lý tương ứng trên phần mềm giả lập Cisco Packet Tracer.
 * **Yêu cầu thực thi:** Bật tính năng giả lập dòng chảy **Simulation Mode**, tiến hành gõ lệnh Ping để tự kiểm tra, quan sát bằng mắt tiến trình nạp địa chỉ, cơ chế Flood nhân bản gói tin phát tán bão mạng của gói tin chặng đi đầu tiên và lệnh Forwarding phóng đường thẳng Unicast của gói tin phản hồi chặng về.
