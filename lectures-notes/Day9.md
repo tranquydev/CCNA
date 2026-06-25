@@ -77,10 +77,8 @@ Tương tự như vậy, nếu kỹ sư thực hiện vay mượn thêm **2 bit*
 * **Phòng D:** 15 Hosts
 
 ### 📐 Thuật toán tư duy "Cắt Bánh" của Kỹ Sư Trưởng (Triết lý VLSM):
-Giảng viên tiến hành show bài làm bị lỗi của học viên Công để cả lớp cùng rút kinh nghiệm. Công mắc lỗi đặt trùng dải số IP (Cấp đè dải số của các phòng lên nhau khiến các máy tính bị xung đột IP, mạng chập chờn không thể định tuyến). 
 
-Thầy giáo chỉ rõ quy luật bất biến của kỹ sư mạng khi làm kỹ thuật VLSM (Variable Length Subnet Mask) là: **Luôn luôn phải xếp hàng thứ tự ưu tiên chọn phòng có nhu cầu số lượng máy trạm lớn nhất để cắt bánh trước, rồi lấy phần diện tích bánh thừa còn lại phân rã chia nhỏ dần cho các phòng ban nhỏ hơn sau (Sắp xếp từ lớn đến bé: Phòng A -> Phòng C -> Phòng D -> Phòng B).**
-
+kỹ sư mạng khi làm kỹ thuật VLSM (Variable Length Subnet Mask) là: **Luôn luôn phải xếp hàng thứ tự ưu tiên chọn phòng có nhu cầu số lượng máy trạm lớn nhất để cắt bánh trước, rồi lấy phần diện tích bánh thừa còn lại phân rã chia nhỏ dần cho các phòng ban nhỏ hơn sau (Sắp xếp từ lớn đến bé: Phòng A -> Phòng C -> Phòng D -> Phòng B).**
 
 
 ### Tiến trình thực hiện chia cắt dải số chi tiết:
