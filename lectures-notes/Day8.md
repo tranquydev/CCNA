@@ -1,4 +1,4 @@
-# Day 8: Quản Trị Mạng Con & Ma Trận 3 Chuyên Đề Toán Mạng Doanh Nghiệp
+# Day 8: IP P2
 
 ## I. Sửa bài tập về nhà Day 7 - Thuật toán kiểm tra tính hợp lệ của Subnet
 
