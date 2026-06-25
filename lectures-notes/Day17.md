@@ -44,7 +44,7 @@ Gói tin Web được đóng gói đầy đủ (IP Đích + MAC Đích), phóng 
 * **Cắm cáp nhanh:** Giữ `Ctrl` + Click biểu tượng sợi cáp ➔ Cắm liên tục nhiều cổng.
 * **Xóa nhanh:** Nhấn `Delete` hoặc dùng công cụ dấu X (cắt) ➔ Nhấn `ESC` để quay lại chế độ chuột thường.
 
-## VI. Bài tập về nhà
+## VI. Bài tập 
 
 * Xây dựng sơ đồ mạng: 1 DHCP Server, 1 DNS Server, 1 Web Server, 1 Router, 2 PC trạm.
 * Cấu hình tên miền theo họ tên.
