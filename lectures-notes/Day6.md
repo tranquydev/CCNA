@@ -38,8 +38,6 @@ Ngược lại với máy phát, thiết bị nhận (Destination) khi đón cá
 
 ## III. Thuật toán chuyển đổi hệ Nhị phân (Binary) sang Thập phân (Decimal)
 
-Để chuẩn bị cho chương chia mạng con IPv4, học viên bắt buộc phải nhẩm tay thành thạo quy tắc chuyển đổi từ hệ cơ số 2 sang hệ cơ số 10.
-
 ### 📐 Quy tắc 2 bước tính giá trị Thập phân của dải bit:
 * **Bước 1 (Đánh số số thứ tự bit):** Đếm dải số nhị phân theo ranh giới từ **phải qua trái** và bắt buộc bắt đầu đếm số thứ tự từ số **0** (Hệ thống máy tính luôn chạy từ số 0).
 * **Bước 2 (Tính tổng lũy thừa):** Áp dụng công thức khai triển:
