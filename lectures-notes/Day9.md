@@ -44,7 +44,7 @@ Thay vì kỹ sư mạng phải đi đến từng bàn làm việc, cấu hình 
 
 ## III. Bản chất toán học của Phương pháp mượn Bit nhị phân
 
-Giảng viên giải nghĩa bản chất toán học của việc chia mạng con dựa trên mối liên hệ trực quan về gia phả của dòng họ:
+Bản chất toán học của việc chia mạng con dựa trên mối liên hệ trực quan về gia phả của dòng họ:
 * Dòng họ lớn tổng (Họ Trần hệ `/1`): Khóa cứng đúng 1 chữ cái đầu tiên là chữ `Trần`. Tất cả những ai mang họ Trần đều thuộc dòng họ lớn này.
 * Các chi họ con (Trần Văn, Trần Vũ, Trần Minh hệ `/2`): Để phân biệt các nhánh nhỏ trong dòng họ, người ta khóa cứng thêm chữ cái thứ hai đứng sau chữ họ gốc.
 
