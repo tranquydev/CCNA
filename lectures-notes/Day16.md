@@ -51,7 +51,7 @@ Router(config-if)# ip address dhcp   ! Ép Router đi xin IP động từ Server
 * **Kiểm tra Router:** `show ip interface brief` (Dòng Method hiện DHCP là thành công).
 * **Trên PC Client:** Chuyển cạc mạng từ Static sang `DHCP` ➔ Máy tự động nạp IP, Gateway, DNS.
 
-## IV. Bài tập về nhà bắt buộc Day 16
+## IV. Bài tập 
 
 * **Topo:** 1 DHCP Server + 1 Switch + 1 Router + 2 PC trạm.
 * **Yêu cầu:** Cấu hình dải IP tự động nhảy từ mốc .100 trở đi. 
